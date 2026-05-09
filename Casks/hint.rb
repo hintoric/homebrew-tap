@@ -4,29 +4,29 @@ cask "hint" do
 
   on_macos do
     on_intel do
-      sha256 "284672b561ddb400ffa5cfa87e6a7e6665a1a7022f2d894fe06e1dda0f2cb6d1"
+      sha256 "f44f353e5af2b30cde3a718a0cb0b881f963418fc54f24d7b4962a0d90712e2f"
       url "https://github.com/hintoric/cli/releases/download/v#{version}/hint_#{version}_macos_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "80011442ebfc5ba86b4cc3caf0c358f15493e669a5e7cd7f0443e8d36e7c0888"
+      sha256 "3bbb217cd0f6c3dda9d3652977fcd509237322db917871d10ea25e39a9f6f5e2"
       url "https://github.com/hintoric/cli/releases/download/v#{version}/hint_#{version}_macos_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "c8418e84613e60657681588118eb78b528be4b71bb128d93bd542730359479ef"
+      sha256 "0930ab23703ce259c9696b188023e8a837f4afdd672c8a9214e8539a5e651c34"
       url "https://github.com/hintoric/cli/releases/download/v#{version}/hint_#{version}_linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "ed004f1a405b5ca537b5e85cfd48f11333472f926d4d5a42d6c44094cb83362f"
+      sha256 "8085118fccb9b0cd12ac4889f8f82e8027fa2b89701751f2de09321efa0f43a6"
       url "https://github.com/hintoric/cli/releases/download/v#{version}/hint_#{version}_linux_arm64.tar.gz"
     end
   end
 
   name "hint"
-  desc "Hintoric command-line tool — host CLI with a signed plugin system"
-  homepage "https://github.com/hintoric/cli"
+  desc "The global command-line tool for Hintoric"
+  homepage "https://hintoric.com"
 
   livecheck do
     skip "Auto-generated on release."
